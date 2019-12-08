@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cooperative</title>
+    <link rel="stylesheet" href="css/style.css">
+     <script src=" https://code.jquery.com/jquery-3.4.1.js"> </script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0ea5ebd7f2.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+     <div class="modal-content">
+         <a href="index.html">Home</a>
+         <a href="About.html">About Us</a>
+         <a href="Pricing.html">Pricing</a>
+         <a href="contact.html">Contact Us</a>
+     </div>
+    <div class="top_nav">
+        <a class="left_nav" href="">
+            <i class="fab fa-linode"></i>
+            <h1>Startup</h1>
+        </a>
+        <div class="center_nav">
+            <a href="index.html">Home</a>
+            <a href="About.html">About Us</a>
+            <a href="Pricing.html">Pricing</a>
+            <a href="contact.html" class="active">Contact Us</a>
+             <button type="button" class="menu_btn">Menu</button>
+        </div>
+        <div class="right_nav">
+            <form>
+                <input type="text" name="Search" placeholder="Search here...">
+                <button type="button"><i class="fas fa-search"></i></button>
+            </form>
+            <button type="button" class="btn_purple"><i class="fas fa-cloud-download-alt"></i></button>
+        </div>
+    </div>
+
+    <div class="main_contact">
+        <div class="contact-nav">
+            <p><a href="">Home</a> / Contact</p>
+        </div>
+        <div class="inn-contact">
+           <div class="img-contact">
+              <img src="../cooperative/images/b2.png" alt="">
+           </div>
+           <div class="form_contact">
+              <div class="first-form">
+                  <div class="left_form">
+                      First name<br>
+                      <input type="text" name="firstname" placeholder="Anderson">
+                  </div>
+                   <div class="right_form">
+                       Last name<br>
+                       <input type="text" name="lasttname" placeholder="John">
+                   </div>
+              </div>
+               <div class="second-form">
+                   <div class="left_form">
+                       Mobile<br>
+                       <input type="text" name="Number" placeholder="xxxx xxxx xx">
+                   </div>
+                   <div class="right_form">
+                       Email<br>
+                       <input type="text" name="Email" placeholder="example@mail.com">
+                   </div>
+               </div>
+                <div class="third-form">
+                        Your message<br>
+                        <input type="text" name="message" placeholder="Add your Description here">
+                </div>
+                
+           </div> 
+           <button type="button" class="btn_contact">Send</button>
+        </div>
+        <div class="contact_map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.62713509906!2d3.5285579142663654!3d6.4419024258949635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf710e3e6ce65%3A0xb638ce04616bc854!2sChevron%20Drive%20Lekki!5e0!3m2!1sen!2sng!4v1575118725858!5m2!1sen!2sng"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </div>
+      
+    <div class="sect-six">
+        <div class="top-six">
+            <br>
+            <div class="img_six">
+                <i class="fa fa-envelope"></i>
+            </div>
+            <h1>Stay Updated!</h1>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation</p>
+            <form>
+                <input type="text" name="Email" placeholder="Enter your email...">
+                <button type="button">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer_sec">
+        <div class="social-media">
+             <a href=""> <i class="fab fa-facebook-f"></i></a>
+             <a href=""> <i class="fab fa-twitter"></i></a>
+             <a href=""> <i class="fab fa-google-plus-g"></i></a>
+             <a href=""> <i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="right-txt">
+            <p>© 2019 Startup. All rights reserved | Design by<a href=""> Adelaw</a></p>
+        </div>
+        <div class="go-up">
+            <a href=""> <i class="fas fa-level-up-alt"></i></a>
+        </div>
+    </div>
+
+
+      <script type="text/javascript">
+          $(document).ready(function() {
+              $('.menu_btn').click(function() {
+                  $(".modal-content").slideDown();
+              })
+
+              $('.menu_btn').click(function() {
+                  $(".menu_btn").slideUp();
+              })
+          });
+      </script>
+</body>
+</html>
